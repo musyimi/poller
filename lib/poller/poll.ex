@@ -3,7 +3,7 @@ defmodule Poller.Poll do
 
   defstruct(
     district_id: nil,
-    questions: []
+    questions: [],
     votes: %{}
   )
 
